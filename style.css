@@ -85,7 +85,7 @@ body {
 .color-txt{
     position: fixed;
     font-family: 'Times New Roman', Times, serif;
-    color: #97210C;
+    color: #2f0a03;
     right: 50px;
     height : 745px;
     
@@ -96,6 +96,7 @@ body {
   width: 12px;
   height: 12px;
   border-radius: 50%;
+  border: 1px solid black;
 }
 
 #color1 { 

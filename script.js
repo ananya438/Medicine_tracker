@@ -33,21 +33,33 @@ medButton.addEventListener('click',()=>{
     },1000);   
 });
 
-const buttons = document.querySelectorAll('button')
+const buttons = document.querySelectorAll('.button')
+console.log(buttons);
+
 const body = document.querySelector('body')
 
-buttons.forEach(button => {
+buttons.forEach(function(button) {
     button.addEventListener('click',function(e){
-        if(e.target.id === 'color1')
-            body.style.backgroundColor= #F37D68
+        console.log(e.target);
+        
+        if(e.target.id === 'color1'){
+            body.style.backgroundColor= "#F37D68";
+        }
+            
         
         if(e.target.id === 'color2')
-            body.style.backgroundColor= #EF583E
+        {
+            body.style.backgroundColor= "#EF583E";
+        }
         
         if(e.target.id === 'color3')
-            body.style.backgroundColor= #EC3413
+        {
+            body.style.backgroundColor= "#EC3413";
+        }
         if(e.target.id === 'color4')
-            body.style.backgroundColor= #97210C
+        {
+            body.style.backgroundColor= "#a1240e";
+        }
 
     });  
 });
