@@ -77,72 +77,41 @@ body {
     font-size: 1rem;
     height: 20px;
 }
-
-/* body{
-    background-color: #91C6BC;
-    border: none;
-    text-align: center;
-    margin-top: 30px;
+.color {
+  position: fixed;
+  width: 90rem;
+  height: 700px;
 }
-.flex-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 80vh;
+.color-txt{
+    position: fixed;
+    font-family: 'Times New Roman', Times, serif;
+    color: #97210C;
+    right: 50px;
+    height : 745px;
+    
 }
-.header{
-    padding: 15px 30px ;
-    background-color: #2ecc7081;
-    font-size: 2.2rem;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 3px solid #27ae60;
-    border-radius: 15px;
-    margin-bottom: 20px;
-}
-.completed {
-    color: #239352 !important;  
-    font-weight: 800;
-}
-.time1{
-    margin-top: 10px;
-    padding: 15px 25px;
-    background-color: hsla(203, 81%, 55%, 0.586);;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 3px solid #216b81;
-    border-radius:10% ;
-    display: inline-block;
-}
-#status-msg {
-    margin-top: 15px;
-    color: #27ae60;  
-    font-weight: bold;
-    font-style: italic;
-    height: 24px;  
-    /* margin-top: 20px;
-}
-#med-button {
-    background-color: #3498db;  
-    color: white;
-    padding: 15px 35px;
-    border-radius: 8px;
-    font-size: 1.1rem;
-    font-weight: bold;
-    cursor: pointer;
-    border: none;
-    transition: transform 0.2s, background-color 0.3s;
-    margin-top: 25px;
-
-}
-#med-button:hover {
-    background-color: #2980b9;
-    transform: scale(1.05);
+.button {
+  position: absolute;
+  top: 0px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
 }
 
- 
-#time-display {
-    font-family: 'Courier New', Courier, monospace;  
-    font-weight: bold;
-    color: #e67e22;
- } */
+#color1 { 
+    right: 6px;  
+    background: #F37D68; 
+}
+#color2 { 
+    right: 24px; 
+    background: #EF583E; 
+}
+#color3 { 
+    right: 42px; 
+    background: #EC3413; 
+}
+#color4 { 
+    right: 60px; 
+    background: #97210C; 
+}
   
